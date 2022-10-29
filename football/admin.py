@@ -1,3 +1,11 @@
 from django.contrib import admin
 
-# Register your models here.
+from football.models import (
+    Country,
+    Player,
+    TeamPlayers,
+) 
+
+admin.site.register(Country)
+admin.site.register(Player)
+admin.site.register(TeamPlayers)
